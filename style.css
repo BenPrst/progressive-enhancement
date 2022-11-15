@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+a:visited {
+    color: rgb(51, 255, 0);
+}
+
+header {
+    text-align: justify;
+}
+
+p {
+    font-size: 18px;
+    font-family: serif;
+    text-align: justify;
+    color: #FF1616;
+    line-height: 140%;
+    text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+    letter-spacing: 1px;
+}
+
+footer {
+    text-align: justify;
+}
+
+body {
+    max-width: 90%;
+    margin: 2rem 12rem 2rem;
+    background: #FF8153 url(logo-becode.png) no-repeat right bottom;
+    background-size: cover;
+}
+
+blockquote {
+    font-size: 160%;
+    background-color: rgb(132 132 132 / 29%);
+    border-left: 3px solid firebrick;
+    width: 50%;
+    margin: auto;
+    padding: 80px 30px 80px 30px;
+    font-style: italic;
+}
+q {
+    font-size: 160%;
+    background-color: rgb(132 132 132 / 29%);
+    border-left: 3px solid firebrick;
+    width: 50%;
+    margin: auto;
+    padding: 80px 30px 80px 30px;
+    font-style: italic; 
+}
