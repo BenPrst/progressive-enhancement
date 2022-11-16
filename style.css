@@ -23,12 +23,8 @@ p {
     font-size: 18px;
     font-family: serif;
     text-align: justify;
-    color: #FF1616;
+    color: #3700c4;
     line-height: 140%;
-    text-shadow: -1px 1px 0 #000,
-                          1px 1px 0 #000,
-                         1px -1px 0 #000,
-                        -1px -1px 0 #000;
     letter-spacing: 1px;
 }
 
@@ -39,8 +35,8 @@ footer {
 body {
     max-width: 90%;
     margin: 2rem 12rem 2rem;
-    background: #FF8153 url(logo-becode.png) no-repeat right bottom;
-    background-size: cover;
+    background: url(logo-becode.png) no-repeat right bottom;
+    background: -webkit-linear-gradient(90deg, rgb(0, 134, 255), rgb(142, 198, 255));
 }
 
 blockquote {
@@ -52,12 +48,91 @@ blockquote {
     padding: 80px 30px 80px 30px;
     font-style: italic;
 }
-q {
-    font-size: 160%;
-    background-color: rgb(132 132 132 / 29%);
-    border-left: 3px solid firebrick;
-    width: 50%;
-    margin: auto;
-    padding: 80px 30px 80px 30px;
-    font-style: italic; 
+
+header > h1 {
+    background-color: yellow;
 }
+
+span.bad {
+    color: red;
+}
+
+span.good {
+    color: green;
+}
+
+tr:nth-child(even){
+    background: #dedede;
+}  
+
+table{
+    border-collapse: collapse;
+    width: 20%;
+    border: 1px solid #cbcbcb;
+    text-align: left;
+}
+
+th, td{
+    border-top: 1px solid #cbcbcb;
+    border-left: none;
+    border-right: none;
+    padding: 1px 2px;
+}
+
+ul li:nth-of-type(1){
+    background-image: url(bien.png);
+    background-repeat: no-repeat;
+    background-position: left 375px center;
+    background-size: contain;
+}
+
+ul li:nth-of-type(2){
+    background-image: url(mal.png);
+    background-repeat: no-repeat;
+    background-position: left 370px center;
+    background-size: contain;
+}
+ul li:nth-of-type(3){
+    background-image: url(chat.png);
+    background-repeat: no-repeat;
+    background-position: left 370px center;
+    background-size: contain;
+}
+
+#list{
+    font-size: 25px;
+    margin-left: 2%;
+}
+
+p {
+    margin-left: 5vw;
+}
+
+.image1{
+    float: left;
+    height: 250px;
+    margin: 20px;
+}
+
+.image2{
+    height: 250px;
+    margin: 20px 0px;
+}
+
+.image3{
+    float: left;
+    height: 250px;
+    margin: 20px;
+}
+
+#titlelist{
+    font-size: 30px;
+    padding-bottom: ;
+    line-height: ;
+    letter-spacing: ;
+}
+
+
+
+
+
